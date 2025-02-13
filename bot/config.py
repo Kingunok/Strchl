@@ -12,8 +12,8 @@ class Telegram:
     MULTI_CLIENT = False
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://127.0.0.1:8080")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
+    BASE_URL = env.get("BASE_URL", "https://slstreamapp.koyeb.app")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "slstreamapp.koyeb.app")
     PORT = int(env.get("PORT", 8080))
 
 # LOGGING CONFIGURATION
