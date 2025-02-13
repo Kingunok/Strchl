@@ -2,6 +2,3 @@ hydrogram
 tgcrypto
 quart
 uvicorn
-dnspython
-pymongo
-motor
