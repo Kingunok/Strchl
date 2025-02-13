@@ -5,7 +5,7 @@ import traceback
 import logging.handlers as handlers
 from bot import TelegramBot
 from bot.server import server
-from . import initialize_clients
+from .Clients import initialize_clients
 
 # Logging setup
 logging.basicConfig(
